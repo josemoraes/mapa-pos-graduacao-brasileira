@@ -1,0 +1,16 @@
+{
+  "name": "mapa-pos-graduacao-brasileira",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/josemoraes/mapa-pos-graduacao-brasileira.git",
+  "author": "José Carlos de Moraes Filho <josecarlosdemoraesfilho@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2"
+  },
+  "scripts": {
+    "dev": "babel ./assets/js/main.js -o ./assets/js/bundle.js"
+  }
+}
