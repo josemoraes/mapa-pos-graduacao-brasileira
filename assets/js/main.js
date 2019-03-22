@@ -1,0 +1,1 @@
+alert('Ambiente configurado ;)')
