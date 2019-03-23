@@ -40,3 +40,8 @@ college:{
 }
 
 ```
+
+# Padrão visual (mockup)
+
+- Mapa fullscreen;
+- Botão de pesquisa no canto superior direito que abre um sidebar com opções de filtro para pesquisa;
