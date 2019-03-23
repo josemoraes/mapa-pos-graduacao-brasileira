@@ -11,6 +11,6 @@
     "@babel/preset-env": "^7.4.2"
   },
   "scripts": {
-    "dev": "babel ./assets/js/main.js -o ./assets/js/bundle.js"
+    "dev": "babel ./assets/js/main.js -o ./assets/js/bundle.js -w"
   }
 }
