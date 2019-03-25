@@ -10,6 +10,11 @@ Esse app terá o objetivo mapear as universidades que oferecem curso de pós gra
 college:{
   name: "...",
   initials: "...",
+  address:{
+   state: "...",
+   city: "...",
+   coordinates: "...",
+  },
   programs:[
     {
       name: "...",
@@ -17,13 +22,6 @@ college:{
       level: "...",
       page_link: "...",
       use_pos_comp: boolean,
-      address:[
-        {
-          state: "...",
-          city: "...",
-          coordinates: "...",
-        }
-      ],
       research_scholarships:[
         {
           scholarship_level: "...",
