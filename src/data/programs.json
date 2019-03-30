@@ -1,0 +1,116 @@
+[
+   {
+      "name":"Universidade Estadual de Londrina",
+      "initials":"UEL",
+      "address":{
+         "state":"PR",
+         "city":"Londrina",
+         "coordinates":{
+            "latitude":"-23.324175",
+            "longitude":"-51.200018"
+         }
+      },
+      "programs":[
+         {
+            "name":"Programa de Pós-Graduação em Ciência da Computação - UEL",
+            "initials":"PPGCC - UEL",
+            "level":"Mestrado e Doutorado",
+            "page_link":"http://uel.com.br",
+            "use_pos_comp":1,
+            "research_scholarships":[
+               {
+                  "scholarship_level":"Mestrado",
+                  "quantity_scholarship_holders":20
+               }
+            ],
+            "research_lines":[
+               {
+                  "name":"Visão Computacional"
+               },
+               {
+                  "name":"Engenharia de Software"
+               },
+               {
+                  "name":"Governança de TI"
+               },
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Universidade Tecnológica Federal do Paraná",
+      "initials":"UTFPR",
+      "address":{
+         "state":"PR",
+         "city":"Cornélio Procópio",
+         "coordinates":{
+            "latitude":"-23.186058",
+            "longitude":"-50.657383"
+         }
+      },
+      "programs":[
+         {
+            "name":"Programa de Pós-Graduação em Ciência da Computação - UTFPR",
+            "initials":"PPGCC - UTFPR",
+            "level":"Mestrado e Doutorado",
+            "page_link":"http://uel.com.br",
+            "use_pos_comp":1,
+            "research_scholarships":[
+               {
+                  "scholarship_level":"Mestrado",
+                  "quantity_scholarship_holders":20
+               }
+            ],
+            "research_lines":[
+               {
+                  "name":"Visão Computacional"
+               },
+               {
+                  "name":"Engenharia de Software"
+               },
+               {
+                  "name":"Governança de TI"
+               },
+            ]
+         }
+      ]
+   },
+   {
+      "name":"Universidade de Campinas",
+      "initials":"Unicamp",
+      "address":{
+         "state":"SP",
+         "city":"Campinas",
+         "coordinates":{
+            "latitude":"-22.818232",
+            "longitude":"-47.064817"
+         }
+      },
+      "programs":[
+         {
+            "name":"Programa de Pós-Graduação em Ciência da Computação - Unicamp",
+            "initials":"PPGCC - Unicamp",
+            "level":"Mestrado e Doutorado",
+            "page_link":"http://uel.com.br",
+            "use_pos_comp":1,
+            "research_scholarships":[
+               {
+                  "scholarship_level":"Mestrado",
+                  "quantity_scholarship_holders":20
+               }
+            ],
+            "research_lines":[
+               {
+                  "name":"Visão Computacional"
+               },
+               {
+                  "name":"Engenharia de Software"
+               },
+               {
+                  "name":"Governança de TI"
+               },
+            ]
+         }
+      ]
+   }
+]
