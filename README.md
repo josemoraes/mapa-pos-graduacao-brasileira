@@ -8,41 +8,41 @@ Esse app terá o objetivo mapear as universidades que oferecem curso de pós gra
 - [Babel](https://babeljs.io/) para compilar javascript das versões ES6+ para versões anteriores, e manter os scripts cross-browser
 
 # Estrutura de Dados
-```javascript
+```json
 
-colleges:[
-{
-  name: "...",
-  initials: "...",
-  address:{
-   state: "...",
-   city: "...",
-   coordinates: {
-    latitude: "...",
-    longitude: "..."
-   },
-  },
-  programs:[
-    {
-      name: "...",
-      initials: "...",
-      level: "...",
-      page_link: "...",
-      use_pos_comp: boolean,
-      research_scholarships:[
-        {
-          scholarship_level: "...",
-          quantity_scholarship_holders: 0
-        }
-      ],
-      research_lines:[
-        {
-          name: "...",
-        }
+[
+   {
+      "name":"...",
+      "initials":"...",
+      "address":{
+         "state":"...",
+         "city":"...",
+         "coordinates":{
+            "latitude":"...",
+            "longitude":"..."
+         }
+      },
+      "programs":[
+         {
+            "name":"...",
+            "initials":"...",
+            "level":"...",
+            "page_link":"...",
+            "use_pos_comp":1,
+            "research_scholarships":[
+               {
+                  "scholarship_level":"...",
+                  "quantity_scholarship_holders":0
+               }
+            ],
+            "research_lines":[
+               {
+                  "name":"..."
+               }
+            ]
+         }
       ]
-    }
-  ]
-}
+   }
 ]
 
 ```
