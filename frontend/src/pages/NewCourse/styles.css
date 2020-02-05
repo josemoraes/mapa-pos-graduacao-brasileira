@@ -1,0 +1,72 @@
+.new-course.container {
+  width: 100%;
+  height: 100vh;
+  background: #00c853;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-course form {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 50px 65px;
+  box-shadow: 0 0 4px 1px #0000003b;
+}
+
+.new-course form h2 {
+  margin-bottom: 35px;
+  color: #0072ff;
+  font-size: 1.6em;
+}
+
+.new-course form label {
+  color: #999;
+  font-size: 1.1em;
+}
+
+.new-course form label span {
+  font-size: 0.9em;
+}
+
+.new-course form input {
+  height: 40px;
+  margin-top: 7px;
+  margin-bottom: 50px;
+  padding: 5px 12px;
+  font-size: 1em;
+  color: #555;
+}
+
+.new-course .autocomplete-container {
+  position: relative;
+}
+
+.new-course .autocomplete-container .suggestions {
+  position: absolute;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-right: 1px solid #969696;
+  border-left: 1px solid #969696;
+}
+
+.new-course form .autocomplete-container input {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.new-course .autocomplete-container .suggestions li {
+  padding: 5px;
+  border-bottom: 1px solid #969696;
+  color: #1e88e5;
+  cursor: pointer;
+  transition: 0.15s all ease;
+}
+
+.new-course .autocomplete-container .suggestions li:hover {
+  background-color: #eaeaea;
+}
